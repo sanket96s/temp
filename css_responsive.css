@@ -1,0 +1,240 @@
+#name {
+    width: 70%;
+    top: 2vh;
+    left: 2vh;
+}
+
+#name ul {
+    position: relative;
+}
+
+#item1 {
+    margin: 0vh 0vh 0vh 0vh;
+}
+
+#item1 span {
+    width: 2vh;
+    height: 2vh;
+}
+
+#item2 {
+    font-size: 3vh;
+    margin: 0vh 0vh 0vh 1vh;
+}
+
+.change1::before {
+    content: "STUDENT";
+    visibility: visible;
+}
+
+.change1 {
+    font-size: 2.7vh;
+    margin: 0vh 0vh 0vh 0vh;
+    visibility: hidden;
+}
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    background-color: rgb(199,191,191);
+}
+
+#block4 {
+    width: 30vh;
+    height: 34vh;
+    display: flex;
+    margin-top: -12vh;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:620px) {
+    footer {
+        position: relative;
+        top: -9vh;
+    }
+
+    #write {
+        margin: 0vh 0vh 0vh 42vh;
+        top: -8.5vh;
+    }
+
+    #block5 h1 {
+        position: relative;
+        top: -5vh;
+    }
+
+    #block5 h3 {
+        position: relative;
+        top: -5vh;
+    }
+
+    #block6 {
+        position: relative;
+        top: -5vh;
+    }
+
+    #block5 p {
+        position: relative;
+        top: -5vh;
+    }
+}
+
+@media only screen and (min-width:830px) {
+    #block4 {
+        margin-left: 30vh;
+        margin-right: auto;
+    }
+
+    #block5 h1 {
+        top: -9vh;
+    }
+
+    #block5 h3 {
+        top: -9vh;
+    }
+
+    #block6 {
+        top: -9vh;
+    }
+
+    #block5 p {
+        top: -9vh;
+    }
+}
+
+#block4 img {
+    margin-top: 2vh;
+    height: 40%;
+    width: 40%;
+}
+
+#item4 {
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+#item5 {
+    width: 12vh;
+    height: 0vh;
+    margin: 2vh 0vh 0vh 4vh;
+}
+
+#item6 {
+    font-size: 3vh;
+    margin: 3vh 0vh 0vh 4vh;
+}
+
+#blanck1 {
+    height: 14%;
+    width: 100%;
+}
+
+#block5 h1 {
+    width: auto;
+    margin: 2vh 0vh 0vh 4vh;
+    font-size: 6vh;
+    color: black;
+}
+
+#block5 h3 {
+    width: auto;
+    margin: 0vh 0vh 0vh 4vh;
+    font-weight: 100;
+    font-size: 3vh;
+}
+
+#block6 {
+    width: auto;
+    display: flex;
+    margin: 2vh 0vh 0vh 5vh;
+}
+
+.common1 {
+    width: 13vh;
+    height: 4vh;
+    font-size: 2vh;
+}
+
+#item7 {
+    padding: 1vh 0vh 0vh 1vh;
+}
+
+
+#item8 {
+    margin-left: 1vh;
+    padding: 1vh 0vh 0vh 1vh;
+}
+
+#block5 p {
+    margin: 2vh 0vh 0vh 4vh;
+    font-size: 2vh;
+    width: auto;
+    padding: 1vh;
+}
+
+#section2 {
+    display: block;
+}
+
+footer {
+    margin: 22vh 0vh 0vh 4vh;
+    font-size: 2vh;
+    width: auto;
+    padding: 1vh;
+}
+
+#social {
+    display: block;
+}
+
+#call {
+    margin: -24vh 0vh 0vh 4vh;
+}
+
+#call h4 {
+    font-size: 2.5vh;
+    text-align: left;
+}
+
+#call p {
+    font-size: 2vh;
+}
+
+#write {
+    position: relative;
+    margin-top: 3vh;
+    left: 4vh;
+    width: fit-content;
+}
+
+#write h4 {
+    font-size: 2.5vh;
+    text-align: left;
+}
+
+#write p a {
+    font-size: 2vh;
+}
+
+#follow {
+    margin: -14vh 0vh 0vh 25vh;
+}
+
+#follow h4 {
+    text-align: left;
+    font-size: 2.5vh;
+}
+
+#follow ul li {
+    margin-right: 1vh;
+    margin-left: 0vh;
+    font-size: 2vh;
+}
+
+.fa {
+    width: 2vh;
+    text-align: left;
+}

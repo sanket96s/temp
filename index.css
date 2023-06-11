@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: white;
+  margin-bottom: 1vh;
+}
+
+a {
+  color: black;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+#name:hover {
+  cursor: pointer;
+}
+
+#name ul {
+  margin: 4vw 0vw 2vw 8vw;
+}
+
+#name ul li {
+  display: inline-flex;
+  color: black;
+}
+
+#item1 span {
+  width: 1vw;
+  height: 1vw;
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+#item2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+}
+
+#item3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5vw;
+}
+
+#section1 {
+  width: 100%;
+  display: flex;
+}
+
+#block3 {
+  background-color: rgb(199, 191, 191);
+  width: 75%;
+}
+
+#block4 {
+  width: 32vw;
+  height: 22vw;
+  border: 1px solid rgb(199, 191, 191);
+  background-color: lightgray;
+  box-shadow: -4px 11px 15px -5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 9vw 0vw 9vw -10vw;
+  flex-direction: column;
+}
+
+#block4 img {
+  margin-top: 2vw;
+  height: 30%;
+  width: 40%;
+  border-radius: 50%;
+}
+
+#block4 ul {
+  height: 60%;
+}
+
+#block4 ul li {
+  list-style: none;
+}
+
+#item4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 2vw;
+  margin-top: 1vw;
+}
+
+#item5 {
+  width: 4vw;
+  height: 0vw;
+  border: 1px solid blue;
+  margin: 2vw 0vw 0vw 5vw;
+}
+
+#item6 {
+  font-size: 1.5vw;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2vw 0vw 0vw 4vw;
+}
+
+#blanck1 {
+  background-color: white;
+  height: 10%;
+  width: 100%;
+}
+
+#block5 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+#block5 h1 {
+  width: 100%;
+  margin-top: 8vw;
+  font-size: 5vw;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+#block5 h3 {
+  width: 100%;
+  margin-top: 1vw;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.5vw;
+}
+
+#block6 {
+  width: 100%;
+  display: flex;
+  margin-top: 1vw;
+}
+
+.common1 {
+  font-size: 1vw;
+  font-family: sans-serif;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 7vw;
+  height: 2vw;
+}
+
+.common1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#item7 {
+  padding: 0.5vw 0vw 0vw 1vw;
+  background-color: green;
+}
+
+#item7 a {
+  color: white;
+}
+
+#item8 {
+  margin-left: 1vw;
+  padding: 0.5vw 0vw 0vw 1vw;
+  background-color: green;
+}
+
+#block5 p {
+  width: 100%;
+  margin-top: 2vw;
+  font-size: 1.1vw;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  color: black;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  margin: 3vw 0vw 0vw 2vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1vw;
+  color: black;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#social {
+  display: flex;
+}
+
+#social h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+#call {
+  margin: 3vw 0vw 0vw 40vw;
+}
+
+#call p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1vw;
+}
+
+#write {
+  margin: 3vw 0vw 0vw 2vw;
+}
+
+#write p a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1vw;
+}
+
+#follow {
+  margin: 3vw 0vw 0vw 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#follow ul {
+  display: flex;
+}
+
+#follow ul li {
+  list-style: none;
+  margin-right: 1vw;
+  font-size: 1.3vw;
+}
+
+.fa {
+  width: 1vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add this CSS at the end of the existing CSS code */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu-toggle {
+  display: none; /* Hide the menu toggle by default */
+}
+
+#menu-toggle input {
+  display: none;
+}
+
+#menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+#menu-toggle ul {
+  display: flex;
+  list-style: none;
+}
+
+#menu-toggle ul li {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #name {
+    display: none; /* Hide the name in the mobile view */
+  }
+
+  #menu-toggle {
+    display: block; /* Show the menu toggle on mobile */
+    cursor: pointer;
+  }
+
+  #menu {
+    display: none; /* Hide the menu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+  }
+
+  #menu-toggle input:checked ~ #menu {
+    display: block; /* Show the menu when the toggle is checked */
+  }
+}
